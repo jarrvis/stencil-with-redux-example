@@ -1,9 +1,6 @@
-import app from './app';
+import { combineReducers } from "redux";
+import productResponse from "./productReducer";
 
-import { combineReducers } from 'redux';
-
-const rootReducer = (combineReducers as any)({
-  app
+export default combineReducers({
+  productResponse,
 });
-
-export default rootReducer;

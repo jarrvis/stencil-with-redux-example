@@ -1,0 +1,26 @@
+{
+  "totalNoOfProducts": 10,
+  "products": [
+    {
+      "name": "Test product 1",
+      "number": "0037817672",
+      "totalAmount": "$ 77.13",
+      "placedDate": "08/10/2018",
+      "status": "Available"
+    },
+    {
+      "name": "Test product 2",
+      "number": "0037817673",
+      "totalAmount": "$ 124.99",
+      "placedDate": "22/10/2018",
+      "status": "Available"
+    },
+    {
+      "name": "Test product 3",
+      "number": "0037817674",
+      "totalAmount": "$ 15.00",
+      "placedDate": "",
+      "status": "Not Available"
+    }
+  ]
+}

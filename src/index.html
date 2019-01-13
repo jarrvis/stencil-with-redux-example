@@ -13,10 +13,24 @@
   <link rel="apple-touch-icon" href="/assets/icon/icon.png">
   <link rel="icon" type="image/x-icon" href="/assets/icon/favicon.ico">
   <link rel="manifest" href="/manifest.json">
+  <script type="application/javascript">
+    window.apiUrls = {};
+    window.apiUrls.productsApi = "/assets/products.json";
+  </script>
 </head>
 <body>
 
-  <my-app></my-app>
+  <root-cmp>  
+    <product-search></product-search>
+    <product-table></product-table>
+  </root-cmp>
+
+  <!--
+  <app-cmp>  
+    <product-search></product-search>
+    <product-table></product-table>
+  </app-cmp>
+  -->
 
 </body>
 </html>

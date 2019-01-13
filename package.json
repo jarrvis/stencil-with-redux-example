@@ -7,7 +7,7 @@
     "dist/"
   ],
   "scripts": {
-    "build": "stencil build --prerender",
+    "build": "stencil build",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
     "serve": "stencil-dev-server",
     "start": "npm run dev",
@@ -15,12 +15,15 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "^0.6.9",
-    "@stencil/redux": "0.0.3",
+    "@stencil/core": "0.16.0",
+    "@stencil/redux": "0.0.4",
     "@stencil/router": "latest",
-    "redux": "^3.7.2",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
+    "redux": "4.0.1",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0",
+    "@types/qs": "^6.5.1",
+    "qs": "^6.6.0",
+    "moment": "2.13.0"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
